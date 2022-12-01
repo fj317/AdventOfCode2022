@@ -15,8 +15,7 @@ with open('/Users/freddiejonas/Documents/GitHub/AdventOfCode2022/day1/input.txt'
             continue
 
     print(max(sumValues))
-    sumValues.sort(reverse=True)
-    maxTotal = sumValues[0]+sumValues[1]+sumValues[2]
-    print(maxTotal);
+    sumValues.sort()
+    print(sum(sumValues[-3:]))
 
 print("El Fin")
