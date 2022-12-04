@@ -1,5 +1,3 @@
-from calendar import c
-
 with open('/Users/freddiejonas/Documents/GitHub/AdventOfCode2022/day2/input.txt') as f:
     contents = f.read()
     array = contents.split('\n');
